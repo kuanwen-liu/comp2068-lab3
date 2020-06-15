@@ -1,0 +1,21 @@
+extends layout
+
+block content
+  
+    include header
+    h2= title
+    br
+    div.alert.alert-primary
+        a(href='father')
+            |Father: JI-XING LIU
+    div.alert.alert-secondary
+        a(href='sister')
+            |Sister: JIA-QIAN LIU
+    div.alert.alert-success
+        a(href='brother')
+            |Brother: JUN-LIN LIU
+    div.alert.alert-danger
+        a(href='myself')
+            |My Name: KUAN-WEN LIU
+
+    include footer
